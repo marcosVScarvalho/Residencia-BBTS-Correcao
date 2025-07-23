@@ -18,7 +18,7 @@
     "bbts": "file:",
     "dayjs": "^1.11.13",
     "lucide-react": "^0.453.0",
-    "next": "14.2.15",
+    "next": "^14.2.30",
     "next-auth": "^4.24.10",
     "react": "^18",
     "react-day-picker": "^9.3.2",
