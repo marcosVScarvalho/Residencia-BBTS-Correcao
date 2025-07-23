@@ -46,5 +46,5 @@ GITHUB_SECRET=XXXXX
 Utilize python run dev para rodar o servidor:
 
 ```bash
-npm run server
+npm run dev
 ```
