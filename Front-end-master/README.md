@@ -43,8 +43,8 @@ GITHUB_SECRET=XXXXX
 
 ### 4. Rodar o Servidor
 
-Utilize python manage.py runserver para rodar o servidor:
+Utilize python run dev para rodar o servidor:
 
 ```bash
-npm run server
+npm run dev
 ```
