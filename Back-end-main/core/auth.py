@@ -1,9 +1,9 @@
-import requests
 import jwt
-from jwt import PyJWKClient
-from ninja.security import HttpBearer
 from django.conf import settings
 from django.core.exceptions import PermissionDenied
+from jwt import PyJWKClient
+from ninja.security import HttpBearer
+
 
 class AzureBearer(HttpBearer):
     def authenticate(self, request, token):
