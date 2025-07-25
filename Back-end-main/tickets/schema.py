@@ -1,6 +1,8 @@
-from ninja import Schema
 from datetime import datetime
 from uuid import UUID
+
+from ninja import Schema
+
 
 class TicketSchema(Schema):
     uuid: UUID

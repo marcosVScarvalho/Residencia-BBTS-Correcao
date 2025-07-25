@@ -1,10 +1,12 @@
-from ninja import Router
 from datetime import datetime, timedelta, timezone
+
+from asgiref.sync import async_to_sync
+from channels.layers import get_channel_layer
+from core.auth import azure_bearer
+from ninja import Router
+
 from .models import Tickets
 from .schema import TicketSchema
-from channels.layers import get_channel_layer
-from asgiref.sync import async_to_sync
-from core.auth import azure_bearer
 
 router = Router()
 #auth=azure_bearer

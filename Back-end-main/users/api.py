@@ -1,9 +1,11 @@
-from ninja import Router
+from datetime import timedelta
+
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
-from .schema import SignInSchema, SignUpSchema, AllUsers
+from ninja import Router
 from tickets.models import Tickets
-from datetime import timedelta
+
+from .schema import AllUsers, SignInSchema, SignUpSchema
 
 router = Router()
 
